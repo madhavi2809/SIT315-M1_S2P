@@ -20,7 +20,7 @@ void loop()
   Serial.print(ledState);         // Printing the current state of the LED
   Serial.println("");             // Printing a newline to separate readings
   
-  // If currrent state and revious state of the button are not same, then
+  // If currrent state and previous state of the button are not same, then
   if(buttonState != buttonPrevState)
   {
     ledState = !ledState;         // State of LED is toggled
